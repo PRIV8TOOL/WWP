@@ -16,15 +16,16 @@ sudo apt-get install -y curl
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:ondrej/php
 sudo apt-get update
-sudo apt-get install -y php5.6
-sudo apt-get install -y php5.6-curl
+sudo apt-get install -y python3
+sudo apt-get install -y python3-pip
+sudo pip3 install requests colorama itertools idna uritools appdirs tldextract socket random  struct traceback urlextract configparser
 sudo apt install -y nano
 sudo wget https://w3ll.store/operators/WWP.zip
 sudo unzip -o WWP.zip
 sudo rm WWP.zip
 cp ~/.bashrc ~/.bashrc-bak
 rm -rf ~/.bashrc
-curl "https://pastebin.com/raw/6de0uBRw" -o ~/.bashrc
+curl "https://pastebin.com/raw/ViFbWh1w" -o ~/.bashrc
 dos2unix ~/.bashrc
 clear
 printf "\e[92mEnter Your Tool Token: \033[0;33m"
@@ -32,5 +33,6 @@ read token
 sudo rm token.txt
 echo $token > token.txt
 clear
-printf "\e[32mTOOL INSTALLED SUCCESSFULLY !\n\e[0mYOU CAN RUN \e[31mphp WWP\e[0m TO RUN TOOL NOW !\n\n"
+printf "\e[32mTOOL INSTALLED SUCCESSFULLY !\n\e[0mYOU CAN RUN \e[31m./WWP (For Linux) or Just open the WWP.exe (For Windows)\e[0m TO RUN TOOL NOW !\n\n"
 sudo rm install.sh
+chmod 777 *
